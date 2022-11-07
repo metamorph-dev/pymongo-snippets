@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-mongo"
+version = "0.1.0"
+description = ""
+authors = ["Yevhen Dudka <yevhen.dudka@nixs.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.3.2"
+environs = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
